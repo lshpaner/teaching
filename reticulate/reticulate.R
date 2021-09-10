@@ -52,7 +52,8 @@ library(reticulate)
 # "white_wine." In R, it is best practice to use the left arrow<-` for assignment 
 # statements.
 
-white_wine <- read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv", sep=";")
+url="https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv"
+white_wine <- read.csv(url, sep=";")
 
 # Inspect the first six rows of the dataset by using the head() function. 
 # You should see a variety of properties (variables) associated with white wines. 
@@ -70,7 +71,8 @@ head(white_wine)
 # assignment statements.
 
 import pandas as pd
-white_wine = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv", sep=";")
+white_wine = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/\
+wine-quality/winequality-white.csv",sep=";")
 
 # Inspect the first five rows of the dataset by using the df.head() function 
 # where df is your white_wine dataframe. You should see a variety of properties 

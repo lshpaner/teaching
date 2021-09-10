@@ -96,7 +96,8 @@ library(reticulate)
 3. Read in an example dataset into R using the ```read.csv("...", sep=";") function. This specific dataset is semicolon delimited, so the semicolon separator needs to be contained within the function. Assign the dataset to a dataframe called "white_wine." In R, it is best practice to use the left arrow `<-` for assignment statements.
 
 ```{r}
-white_wine <- read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv", sep=";")
+url="https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv"
+white_wine <- read.csv(url, sep=";")
 ```
 
 4. Inspect the first six rows of the dataset by using the ```head()``` function. You should see a variety of properties (variables) associated with white wines. This is one "sanity" check for ensuring that the dataset was correctly read in.
@@ -120,7 +121,8 @@ head(white_wine)
 
 ```{python}
 import pandas as pd
-white_wine = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv", sep=";")
+white_wine = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/\
+wine-quality/winequality-white.csv",sep=";")
 ```
 
 3. Inspect the first five rows of the dataset by using the ```df.head()``` function where `df` is your `white_wine` dataframe. You should see a variety of properties (variables) associated with white wines. This is one "sanity" check for ensuring that the dataset was correctly read in.
