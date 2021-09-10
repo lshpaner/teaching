@@ -46,7 +46,7 @@ knitr::opts_chunk$set(
 &nbsp; 
 
 ## <b> Installing the reticulate package in RStudio </b>
-The following is a brief introduction on how to install the [reticulate](https://rstudio.github.io/reticulate/) package in RStudio so that you can integrate Python libraries into the IDE (workspace) that shares code with R. This will enable you to eventually [knit](https://www.rdocumentation.org/packages/knitr/versions/1.33/topics/knit) everything together with R and Python into one neat looking RMarkdown document.
+The following is a brief introduction on how to install the [reticulate](https://rstudio.github.io/reticulate/) package in RStudio so that you can integrate Python libraries into the IDE (workspace) that shares code with R. This will enable you to eventually [knit](https://www.rdocumentation.org/packages/knitr/versions/1.33/topics/knit) everything together with R and Python into one neat looking [R Markdown](https://rmarkdown.rstudio.com/) document.
 
 The importance of determining and setting (correctly) the working directory cannot be stressed enough. Obtain the path to the working directory by running the `getwd()` function. Set the working directory by running the `setwd("...")` function, filling the parentheses inside with the correct path.
 

@@ -1,7 +1,7 @@
 # The following is a brief introduction on how to install the reticulate package 
 # in RStudio so that you can integrate Python libraries into the IDE (workspace) 
 # that shares code with R. This will enable you to eventually knit everything 
-# together with R and Python into one neat looking RMarkdown document.
+# together with R and Python into one neat looking R Markdown document.
 
 # The importance of determining and setting (correctly) the working directory 
 # cannot be stressed enough. Obtain the path to the working directory by running
