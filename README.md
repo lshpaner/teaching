@@ -5,7 +5,7 @@
 ![](IMG_0661.jpg)
 
 ## Website
-[](https://www.leonshpaner.com/teaching/)
+[My Portfolio Website (links to external site)](https://www.leonshpaner.com/teaching/)
 
 ## Objective
 
