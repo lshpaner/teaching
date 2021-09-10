@@ -81,8 +81,10 @@ knitr::opts_chunk$set(
 1. Initiate an R code chunk.
 
 ```{r}
-
-
+#    ```{r}
+#
+#
+#    ```
 ```
 
 2. Load the reticulate library 
@@ -108,8 +110,10 @@ head(white_wine)
 1. Initiate a Python code chunk.
 
 ```{python}
-
-
+#    ```{python}
+#
+#
+#    ```
 ```
 
 2. Load the pandas library in Python. Read in the same dataset into Python using the ```pd.read_csv("...", sep=";")``` function. Once again, assign the dataset to a dataframe called "white_wine." In Python, the equals sign `=` is used for assignment statements.
